@@ -1,13 +1,13 @@
-package net.omaima.backend.web;
+package org.essadqui.ebankingbackend.web;
 
 import lombok.AllArgsConstructor;
-import net.omaima.backend.dtos.AccountHistoryDTO;
-import net.omaima.backend.dtos.AccountOperationDTO;
-import net.omaima.backend.dtos.BankAccountDTO;
-import net.omaima.backend.entities.BankAccount;
-import net.omaima.backend.exceptions.BalanceNotSufficientException;
-import net.omaima.backend.exceptions.BankAccountNotFoundException;
-import net.omaima.backend.services.BankAccountService;
+import org.essadqui.ebankingbackend.dtos.AccountHistoryDTO;
+import org.essadqui.ebankingbackend.dtos.AccountOperationDTO;
+import org.essadqui.ebankingbackend.dtos.BankAccountDTO;
+import org.essadqui.ebankingbackend.entities.BankAccount;
+import org.essadqui.ebankingbackend.exceptions.BalanceNotSufficientException;
+import org.essadqui.ebankingbackend.exceptions.BankAccountNotFoundException;
+import org.essadqui.ebankingbackend.services.BankAccountService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

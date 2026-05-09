@@ -1,12 +1,12 @@
-package net.omaima.backend.web;
+package org.essadqui.ebankingbackend.web;
 
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import net.omaima.backend.dtos.CustomerDTO;
-import net.omaima.backend.entities.Customer;
-import net.omaima.backend.exceptions.CustomerNotFoundException;
-import net.omaima.backend.services.BankAccountService;
+import org.essadqui.ebankingbackend.dtos.CustomerDTO;
+import org.essadqui.ebankingbackend.entities.Customer;
+import org.essadqui.ebankingbackend.exceptions.CustomerNotFoundException;
+import org.essadqui.ebankingbackend.services.BankAccountService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
