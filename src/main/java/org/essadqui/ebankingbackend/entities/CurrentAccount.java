@@ -1,5 +1,4 @@
 package org.essadqui.ebankingbackend.entities;
-
 import lombok.Data;
 
 @Data 
