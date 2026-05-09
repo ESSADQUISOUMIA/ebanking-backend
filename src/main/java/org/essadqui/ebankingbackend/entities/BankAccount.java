@@ -1,5 +1,4 @@
 package org.essadqui.ebankingbackend.entities;
-
 import org.essadqui.ebankingbackend.enums.AccountStatus;
 import java.util.List;
 public class BankAccount {
